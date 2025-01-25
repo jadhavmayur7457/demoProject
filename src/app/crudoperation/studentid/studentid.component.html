@@ -1,1 +1,25 @@
 <p>studentid works!</p>
+
+<div class="container w-50 border border-2">
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>subject</th>
+            <th>city</th>
+            <th>pincode</th>
+            <th>studentId</th>
+          </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let item of studentdata">
+               <th>{{item.name}}</th>
+                <td>{{item.subject}}</td>
+                <td>{{item.passout}}</td> 
+                <td>{{generalData?.pincode||'N/A'}}</td> 
+                 <td>{{item.studentdetail[0].studentid||'N/a'}}</td> 
+             </tr>
+        </tbody>
+    </table>
+</div>

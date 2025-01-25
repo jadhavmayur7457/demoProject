@@ -9,15 +9,35 @@
                 "addmissiondate":2024}
         ]},
         
-        {"name":"Mayur",
-            "passout":2024,
-        "subject":"Chemistry",
+        {"name":"sagar",
+            "passout":2021,
+        "subject":"history",
         "studentdetail":[
-              { "studentid":3255,
-                "address":"dhule",
-                "addmissiondate":2024}]
+              { "studentid":3855,
+                "address":"chande",
+                "addmissiondate":2019}]
             
         },
+        {"name":"ketan",
+        "passout":2020,
+    "subject":"diploma",
+    "studentdetail":[
+          { "studentid":3755,
+            "address":"pune",
+            "addmissiondate":2024}]
+        
+    },
+    {"name":"harshal",
+    "passout":2018,
+"subject":"Agriculure",
+"studentdetail":[
+      { "studentid":3855,
+        "address":"chande",
+        "addmissiondate":2019}]
+    
+},
+        
+
         {
           "government":"maharshtra govt",
            "MedicalDetail":"fit",
