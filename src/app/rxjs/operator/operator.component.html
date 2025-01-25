@@ -1,0 +1,21 @@
+<p>operator works!</p>
+<h1>debounced time</h1>
+<p>rxjs can be usefull debounced user prevent sending too many api  request call
+     input when search input too many api call debounceTime()</p>
+
+     <div>
+          <input
+           #searchInput
+            type="text"
+            placeholder="Search"
+            (input)="onSearch(searchInput.value)" />
+        </div>
+        <div *ngIf="data.length > 0">
+          <ul>
+            <li *ngFor="let item of data">{{ item.body }}</li>
+          </ul>
+        </div>
+        <div *ngIf="data.length === 0">
+          <p>No results found.</p>
+        </div>
+        <input placeholder="Search" #input>

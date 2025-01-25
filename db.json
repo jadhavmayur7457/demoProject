@@ -1,0 +1,40 @@
+{
+    "studentInfo":[
+        {"name":"Mayur",
+            "passout":2024,
+        "subject":"Chemistry",
+        "studentdetail":[
+              { "studentid":3255,
+                "address":"dhule",
+                "addmissiondate":2024}
+        ]},
+        
+        {"name":"Mayur",
+            "passout":2024,
+        "subject":"Chemistry",
+        "studentdetail":[
+              { "studentid":3255,
+                "address":"dhule",
+                "addmissiondate":2024}]
+            
+        },
+        {
+          "government":"maharshtra govt",
+           "MedicalDetail":"fit",
+            "pincode":424308,
+              "city":"dhule" ,
+              "vilage":{
+                 "pincode":[425,4586,7452,96653,544155,33523,22514,1426],
+                   "grouppanchyat":[{
+                    "name":"chande",
+                    "year":1956,
+                    "head":"sarpanch"
+                   },{
+                    "medical":"primary healthcare",
+                     "report":266,
+                     "nearby":"shirud"
+                   }]
+              }
+                     }
+    ]
+}

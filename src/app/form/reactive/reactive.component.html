@@ -1,0 +1,32 @@
+<p>reactive works!</p>
+<div class="container w-50">
+
+    <form  [formGroup]="registration" (ngSubmit)="submitform()" >
+        <div class="mb-3">
+            <label class="form-label" for="id1">Name</label>
+            <input class="form-control" type="text" name="fname" id="id1" formControlName="name" >
+            <div *ngIf="registration.controls?.['name']?.invalid && (registration.controls?.['name']?.dirty || registration.controls?.['name']?.touched)">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="id2">email</label>
+            <input class="form-control" type="email" name="femail" id="id2" formControlName="email" >
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="id3">mobile</label>
+            <input class="form-control" type="text" name="fmobile" id="id3" formControlName="mobile" >
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="id4">city</label>
+            <input class="form-control" type="text" name="fcity" id="id4"  formControlName="city" >
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+
+        <button  class="btn btn-secondary m-3"   (click)="setvalue()">setvalue</button>
+        <button  class="btn btn-secondary m-3"   (click)="patchvalue()">patchvalue</button>
+        <button class="btn btn-primary" (click)="setcity()"> getcity change</button>
+    </form>
+</div>

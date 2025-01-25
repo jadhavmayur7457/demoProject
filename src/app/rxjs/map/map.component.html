@@ -1,0 +1,10 @@
+<p>map works!</p>
+<input
+      type="text"
+      placeholder="Search for products"
+      (input)="onSearch($event)"
+    />
+    <div *ngIf="loading">Loading...</div>
+    <ul>
+      <li *ngFor="let product of product">{{ product.name }}</li>
+    </ul>
